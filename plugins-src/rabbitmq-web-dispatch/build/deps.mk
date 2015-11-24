@@ -1,0 +1,10 @@
+$(EBIN_DIR)/rabbit_webmachine_error_handler.beam: /home/git/rabbitmq-server-3.5.6/plugins-src/rabbitmq-web-dispatch/src/rabbit_webmachine_error_handler.erl
+$(EBIN_DIR)/rabbit_web_dispatch_sup.beam: /home/git/rabbitmq-server-3.5.6/plugins-src/rabbitmq-web-dispatch/src/rabbit_web_dispatch_sup.erl
+$(EBIN_DIR)/rabbit_web_dispatch_util.beam: /home/git/rabbitmq-server-3.5.6/plugins-src/rabbitmq-web-dispatch/src/rabbit_web_dispatch_util.erl
+$(EBIN_DIR)/rabbit_web_dispatch.beam: /home/git/rabbitmq-server-3.5.6/plugins-src/rabbitmq-web-dispatch/src/rabbit_web_dispatch.erl
+$(EBIN_DIR)/rabbit_webmachine.beam: /home/git/rabbitmq-server-3.5.6/plugins-src/rabbitmq-web-dispatch/src/rabbit_webmachine.erl
+$(TEST_EBIN_DIR)/rabbit_web_dispatch_test.beam: /home/git/rabbitmq-server-3.5.6/plugins-src/rabbitmq-web-dispatch/test/src/rabbit_web_dispatch_test.erl
+$(TEST_EBIN_DIR)/rabbit_web_dispatch_test_unit.beam: /home/git/rabbitmq-server-3.5.6/plugins-src/rabbitmq-web-dispatch/test/src/rabbit_web_dispatch_test_unit.erl
+$(EBIN_DIR)/rabbit_web_dispatch_app.beam: /home/git/rabbitmq-server-3.5.6/plugins-src/rabbitmq-web-dispatch/src/rabbit_web_dispatch_app.erl
+$(EBIN_DIR)/rabbit_web_dispatch_registry.beam: /home/git/rabbitmq-server-3.5.6/plugins-src/rabbitmq-web-dispatch/src/rabbit_web_dispatch_registry.erl
+$(DEPS_FILE): /home/git/rabbitmq-server-3.5.6/plugins-src/generate_deps

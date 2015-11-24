@@ -1,0 +1,22 @@
+$(EBIN_DIR)/rabbit_federation_link_sup.beam: /home/git/rabbitmq-server-3.5.6/plugins-src/rabbitmq-federation/src/rabbit_federation_link_sup.erl /home/git/rabbitmq-server-3.5.6/plugins-src/rabbitmq-federation/include/rabbit_federation.hrl
+$(EBIN_DIR)/rabbit_federation_queue_link_sup_sup.beam: /home/git/rabbitmq-server-3.5.6/plugins-src/rabbitmq-federation/src/rabbit_federation_queue_link_sup_sup.erl
+$(EBIN_DIR)/rabbit_federation_sup.beam: /home/git/rabbitmq-server-3.5.6/plugins-src/rabbitmq-federation/src/rabbit_federation_sup.erl
+$(EBIN_DIR)/rabbit_federation_upstream_exchange.beam: /home/git/rabbitmq-server-3.5.6/plugins-src/rabbitmq-federation/src/rabbit_federation_upstream_exchange.erl /home/git/rabbitmq-server-3.5.6/plugins-src/rabbitmq-federation/include/rabbit_federation.hrl
+$(EBIN_DIR)/rabbit_federation_exchange_link_sup_sup.beam: /home/git/rabbitmq-server-3.5.6/plugins-src/rabbitmq-federation/src/rabbit_federation_exchange_link_sup_sup.erl
+$(EBIN_DIR)/rabbit_federation_util.beam: /home/git/rabbitmq-server-3.5.6/plugins-src/rabbitmq-federation/src/rabbit_federation_util.erl /home/git/rabbitmq-server-3.5.6/plugins-src/rabbitmq-federation/include/rabbit_federation.hrl
+$(TEST_EBIN_DIR)/rabbit_federation_exchange_test.beam: /home/git/rabbitmq-server-3.5.6/plugins-src/rabbitmq-federation/test/src/rabbit_federation_exchange_test.erl /home/git/rabbitmq-server-3.5.6/plugins-src/rabbitmq-federation/include/rabbit_federation.hrl
+$(TEST_EBIN_DIR)/rabbit_federation_test_util.beam: /home/git/rabbitmq-server-3.5.6/plugins-src/rabbitmq-federation/test/src/rabbit_federation_test_util.erl /home/git/rabbitmq-server-3.5.6/plugins-src/rabbitmq-federation/include/rabbit_federation.hrl
+$(EBIN_DIR)/rabbit_federation_event.beam: /home/git/rabbitmq-server-3.5.6/plugins-src/rabbitmq-federation/src/rabbit_federation_event.erl
+$(EBIN_DIR)/rabbit_federation_queue_link.beam: /home/git/rabbitmq-server-3.5.6/plugins-src/rabbitmq-federation/src/rabbit_federation_queue_link.erl /home/git/rabbitmq-server-3.5.6/plugins-src/rabbitmq-federation/include/rabbit_federation.hrl
+$(EBIN_DIR)/rabbit_federation_queue.beam: /home/git/rabbitmq-server-3.5.6/plugins-src/rabbitmq-federation/src/rabbit_federation_queue.erl /home/git/rabbitmq-server-3.5.6/plugins-src/rabbitmq-federation/include/rabbit_federation.hrl
+$(EBIN_DIR)/rabbit_federation_exchange_link.beam: /home/git/rabbitmq-server-3.5.6/plugins-src/rabbitmq-federation/src/rabbit_federation_exchange_link.erl /home/git/rabbitmq-server-3.5.6/plugins-src/rabbitmq-federation/include/rabbit_federation.hrl
+$(EBIN_DIR)/rabbit_federation_exchange.beam: /home/git/rabbitmq-server-3.5.6/plugins-src/rabbitmq-federation/src/rabbit_federation_exchange.erl
+$(EBIN_DIR)/rabbit_federation_link_util.beam: /home/git/rabbitmq-server-3.5.6/plugins-src/rabbitmq-federation/src/rabbit_federation_link_util.erl /home/git/rabbitmq-server-3.5.6/plugins-src/rabbitmq-federation/include/rabbit_federation.hrl
+$(TEST_EBIN_DIR)/rabbit_federation_queue_test.beam: /home/git/rabbitmq-server-3.5.6/plugins-src/rabbitmq-federation/test/src/rabbit_federation_queue_test.erl /home/git/rabbitmq-server-3.5.6/plugins-src/rabbitmq-federation/include/rabbit_federation.hrl
+$(EBIN_DIR)/rabbit_federation_db.beam: /home/git/rabbitmq-server-3.5.6/plugins-src/rabbitmq-federation/src/rabbit_federation_db.erl /home/git/rabbitmq-server-3.5.6/plugins-src/rabbitmq-federation/include/rabbit_federation.hrl
+$(TEST_EBIN_DIR)/rabbit_federation_unit_test.beam: /home/git/rabbitmq-server-3.5.6/plugins-src/rabbitmq-federation/test/src/rabbit_federation_unit_test.erl /home/git/rabbitmq-server-3.5.6/plugins-src/rabbitmq-federation/include/rabbit_federation.hrl
+$(EBIN_DIR)/rabbit_federation_app.beam: /home/git/rabbitmq-server-3.5.6/plugins-src/rabbitmq-federation/src/rabbit_federation_app.erl
+$(EBIN_DIR)/rabbit_federation_upstream.beam: /home/git/rabbitmq-server-3.5.6/plugins-src/rabbitmq-federation/src/rabbit_federation_upstream.erl /home/git/rabbitmq-server-3.5.6/plugins-src/rabbitmq-federation/include/rabbit_federation.hrl
+$(EBIN_DIR)/rabbit_federation_parameters.beam: /home/git/rabbitmq-server-3.5.6/plugins-src/rabbitmq-federation/src/rabbit_federation_parameters.erl
+$(EBIN_DIR)/rabbit_federation_status.beam: /home/git/rabbitmq-server-3.5.6/plugins-src/rabbitmq-federation/src/rabbit_federation_status.erl /home/git/rabbitmq-server-3.5.6/plugins-src/rabbitmq-federation/include/rabbit_federation.hrl
+$(DEPS_FILE): /home/git/rabbitmq-server-3.5.6/plugins-src/generate_deps

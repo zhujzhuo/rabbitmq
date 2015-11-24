@@ -1,0 +1,13 @@
+$(EBIN_DIR)/rabbit_tracing_traces.beam: /home/git/rabbitmq-server-3.5.6/plugins-src/rabbitmq-tracing/src/rabbit_tracing_traces.erl
+$(EBIN_DIR)/rabbit_tracing_mgmt.beam: /home/git/rabbitmq-server-3.5.6/plugins-src/rabbitmq-tracing/src/rabbit_tracing_mgmt.erl
+$(EBIN_DIR)/rabbit_tracing_wm_traces.beam: /home/git/rabbitmq-server-3.5.6/plugins-src/rabbitmq-tracing/src/rabbit_tracing_wm_traces.erl
+$(EBIN_DIR)/rabbit_tracing_sup.beam: /home/git/rabbitmq-server-3.5.6/plugins-src/rabbitmq-tracing/src/rabbit_tracing_sup.erl
+$(EBIN_DIR)/rabbit_tracing_consumer_sup.beam: /home/git/rabbitmq-server-3.5.6/plugins-src/rabbitmq-tracing/src/rabbit_tracing_consumer_sup.erl
+$(EBIN_DIR)/rabbit_tracing_files.beam: /home/git/rabbitmq-server-3.5.6/plugins-src/rabbitmq-tracing/src/rabbit_tracing_files.erl
+$(EBIN_DIR)/rabbit_tracing_consumer.beam: /home/git/rabbitmq-server-3.5.6/plugins-src/rabbitmq-tracing/src/rabbit_tracing_consumer.erl
+$(TEST_EBIN_DIR)/rabbit_tracing_test.beam: /home/git/rabbitmq-server-3.5.6/plugins-src/rabbitmq-tracing/test/src/rabbit_tracing_test.erl
+$(EBIN_DIR)/rabbit_tracing_wm_trace.beam: /home/git/rabbitmq-server-3.5.6/plugins-src/rabbitmq-tracing/src/rabbit_tracing_wm_trace.erl
+$(EBIN_DIR)/rabbit_tracing_wm_file.beam: /home/git/rabbitmq-server-3.5.6/plugins-src/rabbitmq-tracing/src/rabbit_tracing_wm_file.erl
+$(EBIN_DIR)/rabbit_tracing_wm_files.beam: /home/git/rabbitmq-server-3.5.6/plugins-src/rabbitmq-tracing/src/rabbit_tracing_wm_files.erl
+$(EBIN_DIR)/rabbit_tracing_app.beam: /home/git/rabbitmq-server-3.5.6/plugins-src/rabbitmq-tracing/src/rabbit_tracing_app.erl
+$(DEPS_FILE): /home/git/rabbitmq-server-3.5.6/plugins-src/generate_deps
